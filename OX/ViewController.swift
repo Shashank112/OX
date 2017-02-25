@@ -14,7 +14,29 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var statusLabel1: UILabel!
     
+    @IBOutlet weak var button1: UIButton!
     
+    @IBOutlet weak var button2: UIButton!
+    
+    @IBOutlet weak var button3: UIButton!
+    
+    @IBOutlet weak var button4: UIButton!
+    
+    @IBOutlet weak var button5: UIButton!
+    
+    @IBOutlet weak var button6: UIButton!
+    
+    @IBOutlet weak var button7: UIButton!
+    
+    @IBOutlet weak var button8: UIButton!
+
+    @IBOutlet weak var button9: UIButton!
+    
+    @IBAction func newGameButtonTapped(_ sender: Any) {
+    }
+    
+    @IBAction func buttonClicked(_ sender: Any) {
+    }
     
     
     
