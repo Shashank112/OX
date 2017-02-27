@@ -9,38 +9,53 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var newGamebutton: UIButton!
     
-    @IBOutlet weak var statusLabel1: UILabel!
+    @IBOutlet var tictacImage1: UIImageView!
+    @IBOutlet var tictacImage2: UIImageView!
+    @IBOutlet var tictacImage3: UIImageView!
+    @IBOutlet var tictacImage4: UIImageView!
+    @IBOutlet var tictacImage5: UIImageView!
+    @IBOutlet var tictacImage6: UIImageView!
+    @IBOutlet var tictacImage7: UIImageView!
+    @IBOutlet var tictacImage8: UIImageView!
+    @IBOutlet var tictacImage9: UIImageView!
     
-    @IBOutlet weak var button1: UIButton!
+    @IBOutlet var tictacB1: UIButton!
+    @IBOutlet var tictacB2: UIButton!
+    @IBOutlet var tictacB3: UIButton!
+    @IBOutlet var tictacB4: UIButton!
+    @IBOutlet var tictacB5: UIButton!
+    @IBOutlet var tictacB6: UIButton!
+    @IBOutlet var tictacB7: UIButton!
+    @IBOutlet var tictacB8: UIButton!
+    @IBOutlet var tictacB9: UIButton!
     
-    @IBOutlet weak var button2: UIButton!
     
-    @IBOutlet weak var button3: UIButton!
     
-    @IBOutlet weak var button4: UIButton!
     
-    @IBOutlet weak var button5: UIButton!
     
-    @IBOutlet weak var button6: UIButton!
     
-    @IBOutlet weak var button7: UIButton!
     
-    @IBOutlet weak var button8: UIButton!
-
-    @IBOutlet weak var button9: UIButton!
     
-    @IBAction func newGameButtonTapped(_ sender: Any) {
+    
+    @IBAction func tictacButton1(_ sender: UIButton) {
     }
-    
-    @IBAction func buttonClicked(_ sender: Any) {
+    @IBAction func tictacButton2(_ sender: UIButton) {
     }
-    
-    
-    
-    
+    @IBAction func tictacButton3(_ sender: UIButton) {
+    }
+    @IBAction func tictacButton4(_ sender: UIButton) {
+    }
+    @IBAction func tictacButton5(_ sender: UIButton) {
+    }
+    @IBAction func tictacButton6(_ sender: UIButton) {
+    }
+    @IBAction func tictacButton7(_ sender: UIButton) {
+    }
+    @IBAction func tictacButton8(_ sender: UIButton) {
+    }
+    @IBAction func tictacButton9(_ sender: UIButton) {
+    }
     
     
     
@@ -50,12 +65,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    
 }
 
