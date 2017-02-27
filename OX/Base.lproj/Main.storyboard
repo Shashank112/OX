@@ -52,61 +52,61 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fBc-3V-kMw">
                                 <rect key="frame" x="252" y="445" width="123" height="222"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPR-gh-1hF">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPR-gh-1hF">
                                 <rect key="frame" x="0.0" y="0.0" width="123" height="222"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="222" id="6lB-C5-FFi"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="tictacButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MMH-an-b0Q"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bw9-EP-fzn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77f-bl-uxK">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77f-bl-uxK">
                                 <rect key="frame" x="126" y="0.0" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1gO-OF-V3s"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchDragInside" id="gLK-tc-iEY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqh-WU-P5s">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jqh-WU-P5s">
                                 <rect key="frame" x="252" y="0.0" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J4J-oK-rl2"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R8u-af-hf2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nY-Qw-MCN">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nY-Qw-MCN">
                                 <rect key="frame" x="0.0" y="222" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1qG-Mu-OUx"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="87a-Lk-ugM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCZ-TH-gLb">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCZ-TH-gLb">
                                 <rect key="frame" x="126" y="222" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="plA-Or-9Pj"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2e-V7-zHX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-Gf-zEK">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-Gf-zEK">
                                 <rect key="frame" x="252" y="222" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgl-MY-BC8"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AX6-GY-pYZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-Og-PGJ">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-Og-PGJ">
                                 <rect key="frame" x="0.0" y="445" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qaT-s6-XfH"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rEK-tH-MWE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shQ-RA-3tv">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shQ-RA-3tv">
                                 <rect key="frame" x="126" y="445" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1df-6y-3cP"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HHN-av-fdB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZV-6Z-zej">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZV-6Z-zej">
                                 <rect key="frame" x="252" y="445" width="123" height="222"/>
                                 <connections>
-                                    <action selector="tictacButton9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fX9-Pt-S3y"/>
+                                    <action selector="UIButtonClickedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4I-q7-cs6"/>
                                 </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QZ-OC-FsF">
@@ -118,6 +118,9 @@
                                 <state key="normal" title="RESET">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XLD-LY-Y6N"/>
+                                </connections>
                             </button>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yID-fD-Qzi">
                                 <rect key="frame" x="0.0" y="20" width="375" height="21"/>
@@ -230,15 +233,16 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tictacB1" destination="PPR-gh-1hF" id="XgQ-nC-S17"/>
-                        <outlet property="tictacB2" destination="77f-bl-uxK" id="LK2-Xi-v0h"/>
-                        <outlet property="tictacB3" destination="Jqh-WU-P5s" id="ATA-kP-pm3"/>
-                        <outlet property="tictacB4" destination="2nY-Qw-MCN" id="cFu-UX-a1e"/>
-                        <outlet property="tictacB5" destination="uCZ-TH-gLb" id="HA1-fh-Nyr"/>
-                        <outlet property="tictacB6" destination="hp1-Gf-zEK" id="QaK-5w-UWo"/>
-                        <outlet property="tictacB7" destination="s9b-Og-PGJ" id="coe-a7-uDn"/>
-                        <outlet property="tictacB8" destination="shQ-RA-3tv" id="aB6-lt-x21"/>
-                        <outlet property="tictacB9" destination="DZV-6Z-zej" id="Sdu-ul-ctm"/>
+                        <outlet property="resetButton" destination="4QZ-OC-FsF" id="r51-eD-NSh"/>
+                        <outlet property="tictacB1" destination="PPR-gh-1hF" id="Jba-il-eaA"/>
+                        <outlet property="tictacB2" destination="77f-bl-uxK" id="Ymt-gW-ws4"/>
+                        <outlet property="tictacB3" destination="Jqh-WU-P5s" id="jgR-wz-cjw"/>
+                        <outlet property="tictacB4" destination="2nY-Qw-MCN" id="GW0-UO-vAC"/>
+                        <outlet property="tictacB5" destination="uCZ-TH-gLb" id="vcb-me-IlD"/>
+                        <outlet property="tictacB6" destination="hp1-Gf-zEK" id="nPs-MV-mZg"/>
+                        <outlet property="tictacB7" destination="s9b-Og-PGJ" id="Vhw-3A-ZQp"/>
+                        <outlet property="tictacB8" destination="shQ-RA-3tv" id="X2r-EJ-xWn"/>
+                        <outlet property="tictacB9" destination="DZV-6Z-zej" id="sZQ-FM-qu3"/>
                         <outlet property="tictacImage1" destination="a9S-gW-5es" id="Dc1-Kr-97D"/>
                         <outlet property="tictacImage2" destination="qdr-Xy-ASj" id="kma-28-aR4"/>
                         <outlet property="tictacImage3" destination="7Io-0M-EMN" id="irv-Iq-qeW"/>
@@ -248,11 +252,12 @@
                         <outlet property="tictacImage7" destination="eiF-yl-83g" id="LL3-KB-yiT"/>
                         <outlet property="tictacImage8" destination="Gve-mn-4n1" id="5L1-HH-jlk"/>
                         <outlet property="tictacImage9" destination="fBc-3V-kMw" id="U9Y-L8-c98"/>
+                        <outlet property="userMessage" destination="yID-fD-Qzi" id="0W7-7Z-Fcq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+            <point key="canvasLocation" x="-479" y="81"/>
         </scene>
     </scenes>
     <resources>

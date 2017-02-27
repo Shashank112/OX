@@ -31,32 +31,69 @@ class ViewController: UIViewController {
     @IBOutlet var tictacB9: UIButton!
     
     
+    @IBOutlet var resetButton: UIButton!
+    
+    @IBOutlet var userMessage: UILabel!
+    
+    var plays = Dictionary<Int,Int>()
+    var done = false
+    var aiDeciding = false
     
     
-    
-    
-    
-    
-    
-    @IBAction func tictacButton1(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton2(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton3(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton4(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton5(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton6(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton7(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton8(_ sender: UIButton) {
-    }
-    @IBAction func tictacButton9(_ sender: UIButton) {
+    @IBAction func resetButtonTapped(_ sender: UIButton) {
     }
     
+    @IBAction func UIButtonClicked(sender:UIButton) {
+        userMessage.isHidden = true
+        if !(plays[sender.tag] != nil) && !aiDeciding && !done {
+            setImageForSpot(spot: sender.tag, player:1)
+        }
+        checkForWin()
+        aiTurn()
+    }
+    
+    
+    func setImageForSpot(spot:Int,player:Int) {
+        
+        var playerMark = player == 1 ? "x" : "0"
+        plays[spot] = player
+        switch spot {
+        case 1:
+            tictacImage1.image = UIImage(named: playerMark)
+        case 2:
+            tictacImage2.image = UIImage(named: playerMark)
+        case 3:
+            tictacImage3.image = UIImage(named: playerMark)
+        case 4:
+            tictacImage4.image = UIImage(named: playerMark)
+        case 5:
+            tictacImage5.image = UIImage(named: playerMark)
+        case 6:
+            tictacImage6.image = UIImage(named: playerMark)
+        case 7:
+            tictacImage7.image = UIImage(named:
+                playerMark)
+        case 8:
+            tictacImage8.image = UIImage(named: playerMark)
+        case 9:
+            tictacImage9.image = UIImage(named: playerMark)
+        default:
+        tictacImage5.image = UIImage(named: playerMark)
+        }
+        
+        
+        
+    }
+    
+    func checkForWin(){
+        
+    }
+    
+    func aiTurn(){
+        
+    }
+    
+
     
     
     
